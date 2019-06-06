@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d094d084-2b57-4501-a797-853a201b290c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/ut/dsg/FlinkStreamSQLExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/ut/dsg/WatermarkAssigner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ImpressionSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ItemsSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/PageViewsSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/SensorSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/FlinkStreamSQLExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/FlinkStreamSQLExamples.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +27,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="19" />
+          <entry key="class" value="22" />
           <entry key="csv" value="1" />
           <entry key="java" value="13" />
           <entry key="xml" value="2" />
@@ -42,7 +35,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="19" />
+          <entry key="CLASS" value="22" />
           <entry key="JAVA" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="2" />
@@ -51,13 +44,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="12" />
-          <entry key="java" value="3612" />
+          <entry key="java" value="3914" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3612" />
+          <entry key="JAVA" value="3914" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="81" />
         </counts>
@@ -67,10 +60,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/FlinkStreamSQLExamples.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/FlinkStreamSQLExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="488">
+              <caret line="96" column="86" selection-start-line="96" selection-start-column="86" selection-end-line="96" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +72,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/PageViewsSource.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/typeutils/TimeIndicatorTypeInfo.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/PageViewsSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -91,16 +93,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ImpressionSource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/ImpressionSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="7" column="75" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/SensorSource.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/shaded/org/joda/time/DateTime.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/SensorSource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
@@ -114,10 +125,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ItemsSource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/ItemsSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+            <state relative-caret-position="726">
+              <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1455#1456#0" expanded="true" />
@@ -132,15 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="215" selection-start-line="18" selection-start-column="215" selection-end-line="18" selection-end-column="215" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/sources/TableSourceUtil.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -188,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ItemsSource.java" />
         <option value="$PROJECT_DIR$/target/data.csv" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ut/dsg/FlinkStreamSQLExamples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/ImpressionSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/FlinkStreamSQLExamples.java" />
       </list>
     </option>
   </component>
@@ -215,6 +219,32 @@
             <path>
               <item name="Flink Stream SQL Examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flink-Stream-SQL-Examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flink Stream SQL Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flink-Stream-SQL-Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flink Stream SQL Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flink-Stream-SQL-Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flink Stream SQL Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flink-Stream-SQL-Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flink Stream SQL Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flink-Stream-SQL-Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dsg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Flink Stream SQL Examples" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +352,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559827443224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559835581136" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -344,7 +374,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FlinkStreamSQLExamples (1)">
+    <configuration name="FlinkStreamSQLExamples (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ee.ut.cs.dsg.FlinkStreamSQLExamples" />
+      <module name="flink-Stream-SQL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ee.ut.cs.dsg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlinkStreamSQLExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ee.ut.dsg.FlinkStreamSQLExamples" />
       <module name="flink-Stream-SQL" />
@@ -358,8 +401,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FlinkStreamSQLExamples" />
+      <item itemvalue="Application.FlinkStreamSQLExamples (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlinkStreamSQLExamples (1)" />
         <item itemvalue="Application.FlinkStreamSQLExamples" />
       </list>
     </recent_temporary>
@@ -417,7 +465,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/SensorSource.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/SensorSource.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -457,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/api/java/StreamTableEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/StreamSqlBenchQueriesFlink3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -488,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/WatermarkAssigner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/WatermarkAssigner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -563,20 +604,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/PageViewsSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/PageViewsSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ImpressionSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -594,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/SensorSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/SensorSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
@@ -613,10 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/source/ItemsSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/ItemsSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+        <state relative-caret-position="726">
+          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1455#1456#0" expanded="true" />
@@ -625,10 +659,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/dsg/FlinkStreamSQLExamples.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/api/java/StreamTableEnvironment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/shaded/org/joda/time/DateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/source/ImpressionSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="75" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-planner_2.11/1.8.0/flink-table-planner_2.11-1.8.0.jar!/org/apache/flink/table/typeutils/TimeIndicatorTypeInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ut/cs/dsg/FlinkStreamSQLExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="96" column="86" selection-start-line="96" selection-start-column="86" selection-end-line="96" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
